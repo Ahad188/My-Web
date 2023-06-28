@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* font-family: 'jost', sans-serif; */
+     list-style: none;
+     text-decoration: none;
+     scroll-behavior: smooth;
+}
+:root{
+     --bg-color:#ffffff;
+     --text-color:#000;
+     --sec-color:#a09dab;
+     --main-color:#f75023;
+     --bg--font:5rem;
+     --h2-font:3rem;
+     --p-font:1.1rem;
+}
+body{
+     background-color: var(--bg-color);
+     color: var(--text-color);
+}
+section{
+     padding: 140px 18%;
+}
