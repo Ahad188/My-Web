@@ -1,17 +1,22 @@
 /*home*/
 section{
-     padding: 140px 18%;
+     padding: 100px 10%;
 }
 .home{
-     min-height: 100vh;
+     min-height:40vh;
      height: 100%;
      width: 100%;
-     position: relative;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     align-items: center;
-     grid-gap: 4rem;
-     cursor: pointer;
+     position:relative; 
+     /* border: 2px solid green; */
+     display:  flex;
+     justify-content: space-between;
+     gap: 50px;
+
+}
+.home-t{
+     /* border: 2px solid orangered; */
+     width: 600px;
+     padding: 10px;
 }
 .home-t h1{
      font-size: var(--bg--font);
@@ -52,7 +57,7 @@ section{
      transform: scale(1.1);
      transition: .5s all ease;
 }
-.btn{
+.btn-d{
      display: inline-block;
      color: var(--text-color);
      background: var(--main-color);
@@ -61,7 +66,7 @@ section{
      border-radius: 30px;
      transition: all .40s;
 }
-.btn:hover{
+.btn-d:hover{
      transform: scale(1.1);
      color: var(--bg-color);
 }
@@ -70,3 +75,56 @@ section{
      width: 550px;
      height: auto;
 }
+.home-img img{
+     border-radius: 20px;
+}
+
+ /*  */
+ 
+/*media*/
+@media (max-width: 1425px){
+	 
+	section{
+		padding: 70px 3%;
+		transition: .3s;
+	}
+	 
+	:root{
+		--big-font: 4rem;
+		--h2-font: 2.3rem;
+		--p-font: 1rem;
+		transition: .3s;
+	}
+}
+ 
+/*800 media*/
+@media (max-width: 800px){
+	.home{
+		flex-direction: column;
+          justify-content: center;
+          align-items: center;
+		min-height: 130vh;
+          gap: 10px;
+	}
+	.home-t{
+		padding-top: 30px;
+          margin-left: 40px;
+          width: 400px;
+	}
+	.home-img{
+		text-align: center;
+	}
+	.home-img img{
+		width: 440px;
+		height: auto;
+	}
+	:root{
+		--big-font: 3.4rem;
+		--h2-font: 2rem;
+	}
+	section{
+		padding: 65px 3%;
+		transition: .3s;
+	}
+}
+ 
