@@ -1,0 +1,38 @@
+.items{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+     grid-gap: 4rem;
+     align-items: center;
+     text-align: center;
+}
+.sub-box{
+     padding: 45px;
+     transition: all .50s;
+     cursor: pointer;
+}
+.sub-img{
+     margin-left: 40%;
+}
+.sub-img img{
+     max-width: 100%;
+     width: 60px;
+     height: auto;
+     margin-bottom: 20px;
+}
+.sub-box h3{
+     font-size: 27px;
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+.sub-box p{
+     color: var(--sec-color);
+     line-height: 29px;
+     font-size: var(--p-font);
+}
+.sub-box:hover{
+     background: #ffffff;
+	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+	border-radius: 12px;
+	will-change: transform;
+	transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
+}

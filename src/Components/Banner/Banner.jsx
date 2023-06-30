@@ -1,5 +1,5 @@
 import { FaFacebookF,FaLinkedinIn,FaInstagram} from "react-icons/fa";
-import img from '../../../src/assets/Banner.jpg'
+import img from '../../../src/assets/about.jpg'
 import pdf from '../../../public/AbuAhad-Resume.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -13,7 +13,7 @@ const Banner = () => {
                <h3>Hello I,am</h3>
                <h1>Abu <span>Ahad</span></h1>
                <h5> Creative web <span>Developer</span></h5>
-               <p>I'm creative  web Developer and Designer. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam omnis commodi harum consequuntur nesciunt atque maxime ab alias cupiditate doloremque, fugit et quis quaerat ducimus, non eveniet officiis veritatis nulla! </p>
+               <p>I'm creative  web Developer and Designer. I'm very passionate and dedicated to my work. </p>
                 <div className="social">
                     <a href=""><FaFacebookF></FaFacebookF></a>
                     <a href=""><FaLinkedinIn></FaLinkedinIn></a>

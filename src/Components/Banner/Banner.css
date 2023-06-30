@@ -73,10 +73,12 @@ section{
 .home-img{
      max-width: 100%;
      width: 550px;
-     height: auto;
+     height: ;
 }
 .home-img img{
+     height: 600px;
      border-radius: 20px;
+     border-radius: 30% 70% 70% 30% / 29% 30% 70% 71%  ;
 }
 
  /*  */
@@ -113,6 +115,7 @@ section{
 	}
 	.home-img{
 		text-align: center;
+          margin-left: 55px;
 	}
 	.home-img img{
 		width: 440px;
