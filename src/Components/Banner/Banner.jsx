@@ -15,9 +15,9 @@ const Banner = () => {
                <h5> Creative web <span>Developer</span></h5>
                <p>I'm creative  web Developer and Designer. I'm very passionate and dedicated to my work. </p>
                 <div className="social">
-                    <a href=""><FaFacebookF></FaFacebookF></a>
-                    <a href=""><FaLinkedinIn></FaLinkedinIn></a>
-                    <a href=""><FaInstagram></FaInstagram></a>
+                    <a href="https://www.facebook.com/ahad.shorun.1" target="/_blank"><FaFacebookF></FaFacebookF></a>
+                    <a href="https://www.linkedin.com/in/abu-ahad-171b8723b" target="/_blank"><FaLinkedinIn></FaLinkedinIn></a>
+                    <a href="https://www.instagram.com/abuahad35188" target="/_blank"><FaInstagram></FaInstagram></a>
                 </div>
                     <a href={pdf} download={pdf} className="btn-d">Download-Resume</a> 
           </div>
