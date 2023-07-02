@@ -20,37 +20,48 @@ const Portfolio = () => {
                          <h3>Restaurant</h3>
                          <h5 className='my-2'>This is Restaurant web site</h5>
                           <h3>
-                              <span className='text-orange'>live</span> <br />
-                              <span className='text-orange'>Repo</span>
+                              <a href='https://bistro-boss-4985a.web.app' target  ='/_blank'className='text-orange'>Live</a> <br />
+                              <a href='https://github.com/Ahad188/Bistro-Resturent-C' target  ='/_blank'className='text-orange'>
+                                   Git
+                                   </a> <br />
+                              
                           </h3>
                     </div>
                </div>
                <div className="col">
                <img src={work2} alt="" />
                     <div className="layer">
-                         <h3>Web Designed</h3>
-                         <h5>Popup</h5>
+                         <h3>Presenter</h3>
+                         <h5 className='my-2'>This Side is Education self development</h5>
+                         <h3><a href="https://presenter-79764.web.app" target='/_blank'>LIve</a></h3>
+                         <h3><a href="https://github.com/Ahad188/Presenter" target='/_blank'>Git</a></h3>
                     </div>
                </div>
                <div className="col">
                <img src={work3} alt="" />
                     <div className="layer">
-                         <h3>Web Designe</h3>
-                         <h5>Popup</h5>
+                         <h3>Toy Shop</h3>
+                         <h5 className='my-2'>This is Toy Shop web page</h5>
+                         <h3><a href="https://toy-world-5bfd6.web.app" target='/_blank'>LIve</a></h3>
+                         <h3><a href="https://github.com/Ahad188/Toy-world" target='/_blank'>Git</a></h3>
                     </div>
                </div>
                <div className="col">
                <img src={work4} alt="" />
                     <div className="layer">
-                         <h3>Web Designe</h3>
-                         <h5>Popup</h5>
+                         <h3>Chef World</h3>
+                         <h5 className='my-2'> POpular Chef in india</h5>
+                         <h3><a href="https://mtr-chef.web.app" target='/_blank'>LIve</a></h3>
+                         <h3><a href="https://github.com/Ahad188/Mtr-chef" target='/_blank'>Git</a></h3>
                     </div>
                </div>
                <div className="col">
                <img src={work5} alt="" />
                     <div className="layer">
-                         <h3>Web Designe 56</h3>
-                         <h5>Popup</h5>
+                         <h3> Job Circular</h3>
+                         <h5 className='my-2'>World wire job in this side.</h5>
+                         <h3><a href="https://classy-tanuki-9e6f67.netlify.app" target='/_blank'>LIve</a></h3>
+                         <h3><a href="https://github.com/Ahad188/World-Job" target='/_blank'>Git</a></h3>
                     </div>
                </div>
                <div className="col">

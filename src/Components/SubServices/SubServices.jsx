@@ -12,21 +12,21 @@ const SubServices = () => {
                          <img src={img1} alt="" />
                     </div>
                     <h3>Pixel Perfect</h3>
-                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+                    <p>Font sizes for each side are carefully considered and balanced to match national demand.</p>
                </div>
                <div className="sub-box" data-aos="flip-up">
                     <div className="sub-img">
                     <img src={img2} alt="" />
                     </div>
                     <h3>Color Perfect</h3>
-                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+                    <p>The colors of each side are carefully considered and balanced, which is in line with the national demand.</p>
                </div>
                <div className="sub-box" data-aos="flip-up">
                     <div className="sub-img">
                     <img src={img3} alt="" />
                     </div>
                     <h3>Align Perfect</h3>
-                    <p>Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+                    <p>The balance of each section line is carefully considered.</p>
                </div>
           </div>
      </section>

@@ -2,7 +2,7 @@ import './Skill.css'
 
 const Skill = () => {
      return (
-          <section className="w-[900px] mx-auto" id="skill" data-aos="zoom-in-down">
+          <section className="w-[100%] mx-auto" id="skill" data-aos="zoom-in-down">
 
                {/*  */}
                <div className="">
