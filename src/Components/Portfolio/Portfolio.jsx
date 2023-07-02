@@ -67,8 +67,10 @@ const Portfolio = () => {
                <div className="col">
                <img src={work6} alt="" />
                     <div className="layer">
-                         <h3>Web Designe</h3>
-                         <h5>Popup</h5>
+                         <h3>Tour and travels</h3>
+                         <h5 className='my-2'>This is a truest web side</h5>
+                         <h3><a href="https://ahad188.github.io/Tour-_-_travels/" target='/_blank'>LIve</a></h3>
+                         <h3><a href="https://github.com/Ahad188/Tour-_-_travels" target='/_blank'>Git</a></h3>
                     </div>
                </div>
           </div>

@@ -1,11 +1,32 @@
 import { useForm } from "react-hook-form";
 import contact from '../../../public/contact.json';
 import Lottie from "lottie-react";
+import emailjs from '@emailjs/browser';
 import "./Contact.css";
+import Swal from "sweetalert2";
 
 const Contact = () => {
-  const { register, handleSubmit } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const { register, handleSubmit,reset } = useForm();
+  const onSubmit = (data) =>{
+     
+     console.log(data)
+     emailjs.send('service_y5aj438', 'template_mtg35qt', data, 'cNVYBzCrJt7i0xZwX')
+      .then((result) => {
+          console.log(result.text,'ok2');
+          Swal.fire({
+               position: 'top-end',
+               icon: 'success',
+               title: 'Your Email Send',
+               showConfirmButton: false,
+               timer: 1500
+             })
+          reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+
+
+};
 
   return (
     <section className="contact" id='contact'>
@@ -14,8 +35,7 @@ const Contact = () => {
           </div>
     <div className="md:grid md:grid-cols-2">
     <div className="text-div">
-          {/* <img className="h-[500px] mx-auto my-10" src={c_img} alt="" /> */}
-          {/* <h3 className="text-center mt-10 text-xl">Contact Me</h3> */}
+          
           <Lottie size={400} animationData={contact} loop={true} />
 
      </div>
