@@ -19,7 +19,7 @@ const Banner = () => {
                     <a href="https://www.linkedin.com/in/abu-ahad-171b8723b" target="/_blank"><FaLinkedinIn></FaLinkedinIn></a>
                     <a href="https://www.instagram.com/abuahad35188" target="/_blank"><FaInstagram></FaInstagram></a>
                 </div>
-                    <a href={pdf} download={pdf} className="btn-d">Download-Resume</a> 
+                    <a href='https://drive.google.com/file/d/1Ykm0_FykKyzMyR9tpdRQGWwa7hBxOktb/view?usp=sharing' download={'https://drive.google.com/file/d/1Ykm0_FykKyzMyR9tpdRQGWwa7hBxOktb/view?usp=sharing'} className="btn-d">Download-Resume</a> 
           </div>
           <div className="home-img" data-aos="fade-left" data-aos-duration='3000'>
                <img src={img} alt="" />
