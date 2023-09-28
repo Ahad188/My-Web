@@ -11,7 +11,7 @@ const Navbar = () => {
            
      
   return (
-    <div className="">
+    <div className="container">
       {/*  */}
       <div className="navbar bg-base-100">
         <div className="navbar-start">

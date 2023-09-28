@@ -6,7 +6,7 @@
 }.about-img img{
      max-width: 100%;
      width: 540px;
-     height: 600px;
+     height: 550px;
      border-radius: 30% 70% 70% 30% / 29% 30% 70% 71%  ;
      
 }
@@ -45,4 +45,32 @@
 		padding: 65px 3%;
 		transition: .3s;
 	}
+}
+@media screen and (max-width:776px) {
+     .about-img img{
+		 width: 400px;
+           height: 400px;
+	}
+	:root{
+		--big-font: 3.2rem;
+		--h2-font: 2rem;
+	}
+	section{
+		padding: 60px 3%;
+		transition: .3s;
+	}
+}
+@media screen and (max-width:456px) {
+     .about-img img{
+          width: 400px;
+          height: 400px;
+    }
+    :root{
+         --big-font: 3rem;
+         --h2-font: 1.5rem;
+    }
+    section{
+         padding: 56px 3%;
+         transition: .3s;
+    }
 }
